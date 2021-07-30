@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+  @apply font-normal py-5 px-11 rounded-lg;   
+}
+
+.btn-primary-green {
+    @apply bg-primary text-white;
+
+}
+
+.btn-preview{
+    @apply bg-white bg-opacity-10 text-white;
+}
